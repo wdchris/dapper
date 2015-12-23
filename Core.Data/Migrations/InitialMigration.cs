@@ -1,11 +1,7 @@
-﻿using FluentMigrator;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using FluentMigrator;
 
-namespace Core.Migrations
+namespace Core.Data.Migrations
 {
     [Migration(1)]
     public class InitialMigration : Migration
